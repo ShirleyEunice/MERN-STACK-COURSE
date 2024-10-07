@@ -1,0 +1,71 @@
+Types of applications
+---------------------------------
+console
+ - output comes in the console or command window
+windows
+ - output comes in the GUI window
+web 
+ - output comes in the browser
+
+
+website or webapplication
+------------------------------
+ there are two sides in every website
+1. client side
+   - who sends the request to server
+
+2. server side
+    - who process the client's request and sends the response
+
+
+static website
+--------------------
+  the web pages are already developed in the server
+
+ex: the website which has html files alone
+
+dynamic website
+--------------------
+  the web pages are created at the time of request
+
+ex:
+----
+facebook, google
+
+
+
+client side scripting [ front end technologies ]
+---------------------------
+  the code can be executed in browser itself
+
+ex: javascript
+
+server side scripting [ backend technologies ]
+---------------------------
+  the code can be excuted only on servers
+ ex: php, mvc, spring boot , django
+
+
+1. search free-css template
+2. click free-css.com
+3. click free-css menu option
+4. select the desired website template
+5. click on it
+6. download the zip file
+7. place that zip file in a separte folder
+8. right click on it then select extract all or extract here
+9. double click the index.html file
+10. check the output
+11. choose some word in that web page
+12. now right click on the index.html file, open with notepad 
+13. press ctrl +f , search the word
+14. modify the word now save [ctrl+s] or file-save
+15. now refresh your webpage in the browser or double click on the index.html
+16. verify the changes in the output
+
+
+
+
+
+
+
