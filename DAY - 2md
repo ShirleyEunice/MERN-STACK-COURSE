@@ -1,0 +1,43 @@
+1. programming language
+    it is set of statements works based on the entry point main
+2. scripting language
+     it works based on the user's action or events
+
+3. libraries
+     collection of inbuilt classes , interfaces and so on
+
+4. framework
+      it is the readymade foundation to develop the application
+
+5. compiler
+     special program convert source code into machine code. but it generates an intermediate file then it translates into machine code
+
+6. interpreter
+    same as compiler but does not create intermediate file
+    compilation and execution happens at same time
+
+7. static
+      it is the website where the web pages are already developed in the server
+8. dynamic
+      the web pages are created at the time of request
+
+9. database
+    it is collection of tables and tables are collection of rows and columns
+10. connectivity
+     the intermediate technology between front end and backend
+
+11. 1990s websites
+12. latest websites
+13. responsive websites 
+       depends on the loaded device the webpages are automatically changed the layout
+
+14. fullstack ,mernstack, meanstack
+    front end and backend
+     front end :html, css, javascript
+     backend : database, programming languages mvc frameworks [ mvc.net, springboot, php -larawel]
+15. hosting - installing the website in the server
+16. hosting tool - filezilla
+17. bootstrap - it is the css framework
+18. difference between client side and server side rendering
+19. what is ui and ux - user interface represent the tools in the web pages
+    us - user experience represent the user friendly of the website to the user
