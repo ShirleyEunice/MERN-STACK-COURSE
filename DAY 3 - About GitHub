@@ -1,9 +1,25 @@
-ABOUT GITHUB
+
+What is GITHUB?
+GitHub is a web-based platform that allows users to collaborate on code, web pages, and other content. 
+It's a popular tool for software developers, but can also be used by other professionals like writers, product managers, and team leaders.
+GitHub is easy to use, has robust documentation and support, and encourages collaboration. 
+It's used by over 4 million organizations and more than 100 million developers.
+
+Main Activities of GITHUB:
+1. Version control: GitHub uses Git, an open source version control system, to track changes to code and reduce the risk of conflicting work. 
+2. Collaboration: GitHub allows multiple people to work on a project at the same time, and provides tools to manage changes from multiple developers. 
+3. Sharing: Users can store their code in a "repository" on GitHub, and share it with others. 
+4. Review: Others can review code and make suggestions to improve it. 
+5. Reverting: Users can revert to previous versions if changes aren't positive.
+
 How to create a GitHub account
 1. Create a github account by signing up by adding email, password and username.
 2. Verify your account
 
 Types of Reprository:
 1.Public
+Anyone on the internet can see this repository. You choose who can commit.
 2. Private
+You choose who can see and commit to this repository.
+
 
