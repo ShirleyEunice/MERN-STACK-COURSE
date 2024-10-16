@@ -1,0 +1,36 @@
+How to push HTML, CSS templates into GITHUB AND VIEW
+
+1. Open Free CSS website - https://www.free-css.com/
+2. Click on "Free CSS template" and download any CSS template.
+3. Cut the downloaded zip folder and past it in a assigned folder.
+4. Extract the zip folder then open the extracted folder.
+5. Open GitHub and create a new repository.
+6. Select all the files from file manager then drag and paste into the new repository.
+7. Once all the files are uploaded then click on commit.
+8. Click on index.html from master repository.
+9. Copy the permanent link by clicking on top three dots then paste them in a website - https://raw.githack.com/
+10. This website creates a new URL for production. Copy that link and paste it in a new website.
+11. Now we can able to see GITHUB project in a website.
+--------------------------------------------------------------------------------------------------------------------------
+
+What is Branch?
+A branch in Git is a separate version of the main repository that allows you to work on different parts of a project without affecting the main branch.
+
+HOW TO CREATE A BRANCH?
+
+1. Once repository is created then click on branch (default the branch will be 1)
+2. Click on "new branch" to create another and name it.
+3. Again move to the repository and click on master. It shows two branches as master(default) and another which you have created.
+4. Click on the new branch. it again shows the exact copy of the master repository(main).
+5. You can click on index.html and update the code as you wish then click on commit changes.
+6. Copy the permanent link by clicking on top three dots then paste them in a website - https://raw.githack.com/
+7. This website creates a new URL for production. Copy that link and paste it in a new website.
+8. Now we can able to see branch(which you have created)GITHUB project in a website.
+9. Note that it will not affect the Main repository as this is copy of the main repository. 
+10. We can able to compare the websites of main repository and branch repository.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
