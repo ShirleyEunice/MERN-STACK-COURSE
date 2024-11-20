@@ -1,0 +1,502 @@
+<p>Press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>i</kbd> to open developer console.</p>
+
+<p>Useless code (<del>function useless() { }</del>) have been removed in newerverion
+
+The <ins> tag is used to display a group of text which has been added to the document.
+
+The ins tag adds a solid underline to its text.
+
+Example
+
+<del>
+  <p>Plastic use for bags.</p>
+</del>
+<ins>
+  <p>Use biodegradable substances for carrying bags.</p>
+</ins>
+
+<p>mark tag is used to <mark>highlight</mark> a text.</p>
+
+<blockquote> tag
+The <blockquote> tag indicates that the enclosed text is extended text from another source.
+
+The URL of the external source is given using the cite attribute.
+
+Example
+
+<style>
+  blockquote {
+    margin: 0;
+    padding: 10px;
+    background: #eee;
+    border-left: 3px solid #aaa;
+  }
+</style>
+
+<blockquote cite="https://www.w3.org/TR/html52/introduction.html">HTML went through a number of revisions and experienced a number of extensions, primarily hosted first at CERN, and then
+at the IETF</blockquote>
+
+<address>
+  Mailto: <a href="mailto:office@example.com">John smith</a><br>
+  Phone: 1234567890 <br>
+  Twitter: 🐦@example_john
+</address>
+
+<p><cite>Monalisha</cite> painting is one of the most mysterious paintings in history.</p>
+
+
+<p>Speed of bike was 65kmph <meter min="0" max="100" low="33" high="66" value="65"></meter></p>
+
+<p>The task is 75% complete <progress max="100" value="75"></progress></p>
+
+
+<p>The concept of <q>this</q> in javascript may be a little confusing to beginners.</p>
+
+<p>var <var>a</var> = 2, <var>b</var> = 3, <var>c</var> = 5;</p>
+<p><var>a</var><sup>2</sup> + <var>b</var><sup>2</sup> = <var>c</var><sup>2</sup></p>
+
+
+<style>
+  figure {
+    padding: 5px;
+    width: fit-content;
+    border: 1px solid silver;
+  }
+</style>
+<figure>
+  <img src="cat.jpg" alt="a cat">
+  <figcaption>Image of a cat</figcaption>
+</figure>
+
+-----------
+
+<style>
+  figure {
+    padding: 5px;
+    width: fit-content;
+    border: 1px solid silver;
+  }
+
+  figcaption {
+    color: white;
+    padding: 10px;
+    text-align: center;
+    background: gray;
+  }
+</style>
+
+<figure>
+  <img src="cat.jpg" alt="a cat">
+  <figcaption>Image of a cat</figcaption>
+</figure>
+
+-----------
+
+<picture> tag
+The <picture> is used to define hold multiple sources of an image. It contains 0 or more <source> element and 1 <img>.
+
+The multiple resources of the image are chosen in different scenarios and the image source from the <img> tag is used when no other source is available or supported.
+
+The <img> is also used to provide the alt attribute and width of the image
+
+<p>Adjust the window size to 600px and see how the browser chooses different sources of images for different scenarios.</p>
+<picture>
+  <source srcset="flowers.jpg" media="(max-width:600px)">
+  <img src="cat.jpg" alt="image">
+</picture>
+
+-----
+<map> tag
+The <map> is used to define area elements to create a map-like clickable structure inside an image.
+
+<area> tag
+The <area> is used to define an area inside an image and create a clickable link. It uses attributes to define shape, coordinates, URL, etc.
+
+shape - It defines shapes like circles, rectangles, polygons, etc
+coords - It specifies coordinates of the shape in x1,y1,x2,y2... pattern
+href - It provides the URL of the hyperlink for the target area
+Example
+
+<map name="yourMap">
+  <area shape="poly" coords="150,0,150,177,0,260" href="https://www.tutorialstonight.com/html/html-introduction"
+    target="_blank" alt="HTML Tutorial">
+  <area shape="poly" coords="0,260,150,178,300,260" href="https://www.tutorialstonight.com/css/css-introduction"
+    target="_blank" alt="CSS Tutorial">
+  <area shape="poly" coords="151,0,151,177,300,260" href="https://www.tutorialstonight.com/js/"
+    target="_blank" alt="JavaScript Tutorial">
+</map>
+<img src="area-image.png" alt="map and area" usemap="#yourMap">
+----------
+
+<canvas id="myCanvas"></canvas>
+<style>canvas { border: 1px solid black }</style>
+<script>
+  const canvas = document.getElementById("myCanvas");
+  const ctx = canvas.getContext("2d");
+  ctx.fillStyle = "yellow";
+  ctx.fillRect(20, 20, 50, 50);
+  ctx.fillRect(80, 20, 50, 50);
+  ctx.fillStyle = "red";
+  ctx.fillRect(50, 80, 50, 50);
+</script>
+
+------------
+
+<svg> tag
+The <svg> is also known as scalable vector graphics. It is used to create different geometrical shapes like circles, rectangles, lines, curve paths, vector images, etc.
+
+SVG can create very complex images and are very lightweight. Components of these images can be easily handled by CSS and javascript.
+
+<svg width="300" height="150">
+  <circle cx="60" cy="60" r="50" stroke="gray" stroke-width="2" fill="yellow" />
+  <rect width="100" height="100" style="fill:rgb(201, 68, 68);stroke-width:2;stroke:rgb(0,0,0)" x="150" />
+</svg>
+
+-----
+
+<nav> tag
+The <nav> defines a section of the page that has navigation links, either internal links or external links.
+
+It can be used in creating menus, a sidebar with multiple links, footer links, etc.
+
+Example
+<nav>
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
+
+type="circle"
+type="disc"
+type="square"
+
+------
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+<p>Changing type of ordered list.</p>
+<ul type="square">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+-----
+<dl>
+  <dt>HTML</dt>
+  <dd>A markup language</dd>
+  <dt>CSS</dt>
+  <dd>A language to design webpages</dd>
+  <dt>JavaScript</dt>
+  <dd>A scripting language</dd>
+</dl>
+---------
+
+ <label for="feedback">Feedback:</label>
+  <textarea id="feedback"></textarea><br>
+  <input type="submit" value="submit">
+
+------
+<label for="lang">Choose one to start: </label>
+<select id="lang">
+  <option value="HTML">HTML</option>
+  <option value="CSS">CSS</option>
+  <option value="javascript">JavaScript</option>
+</select>
+
+---------------
+
+<label for="lang">Choose one to start: </label>
+<select id="lang">
+  <optgroup label="Web Design">
+    <option value="HTML">HTML</option>
+    <option value="CSS">CSS</option>
+  </optgroup>
+  <optgroup label="Web Development">
+    <option value="javascript">JavaScript</option>
+    <option value="Python">Python</option>
+    <option value="PHP">PHP</option>
+  </optgroup>
+</select>
+
+---------------
+<form>
+  <fieldset>
+    <legend>Personal data</legend>
+    <label>Name: <input type="text"></label>
+    <label>Age: <input type="number"></label>
+  </fieldset>
+  <fieldset>
+    <legend>Academic data</legend>
+    <label>Degree: <input type="text"></label>
+    <label>Percentage: <input type="number"></label>
+  </fieldset>
+  <br>
+  <input type="submit" value="Submit">
+</form>
+
+--------
+
+<form>
+  <label>Choose or submit your own language:
+    <input list="languages">
+    <datalist id="languages">
+      <option value="HTML">HTML</option>
+      <option value="CSS">CSS</option>
+      <option value="JS">JS</option>
+    </datalist>
+  </label>
+</form>
+
+-----
+
+<table border="1">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tr>
+    <td>John</td>
+    <td>30</td>
+  </tr>
+  <tr>
+    <td>Jeany</td>
+    <td>34</td>
+  </tr>
+</table>
+
+-----------
+<colgroup> tag
+The <colgroup> tag is used to define a group of columns in the table.
+
+<col> tag
+The <col> tag defines a column in a table.
+
+<style>
+  .special {
+    background-color: pink;
+  }
+</style>
+
+<table border="1">
+  <colgroup>
+    <col>
+    <col span="2" class="special">
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+      <th>salary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>John</td>
+      <td>30</td>
+      <td>2000$</td>
+    </tr>
+    <tr>
+      <td>Jeany</td>
+      <td>34</td>
+      <td>2400$</td>
+    </tr>
+  </tbody>
+</table>
+
+-----
+
+<audio> tag
+The <audio> tag is used to embed an audio file on a web page.
+
+The src attribute specifies the location of the audio file.
+
+You can use control attributes to specify the audio file to be played, the volume, and the playback rate.
+
+It may contain multiple <source> tags to specify multiple audio formats.
+
+<audio controls src="audio.mp3"></audio>
+
+<!-- Multiple audio formats -->
+<audio controls>
+  <source src="audio.mp3">
+  <source src="audio.ogg">
+  <source src="audio.wav">
+</audio>
+-------
+
+<video> tag
+The <video> tag is used to embed a media player that supports video playback on a web page.
+
+Even for <audio> media files you can use the <video> tag but you should use the <audio> tag for <audio> media files.
+
+The src attribute specifies the location of the video file.
+
+You can use control attributes to specify the video file to have controls like play, pause, stop, volume, etc.
+
+It may contain multiple <source> tags to specify multiple video formats.
+
+<video controls src="video.mp4"></video>
+
+<!-- Multiple video formats -->
+<video controls>
+  <source src="video.mp4">
+  <source src="video.ogg">
+  <source src="video.webm">
+</video>
+
+---------------
+
+<track> tag
+The <track> tag is used to embed a track in a media file. It is used to specify the location of the track in a media file.
+
+The src attribute specifies the location of the track file.
+
+The srclang attribute specifies the language of the track.
+
+The kind attribute specifies the kind of track. It can be subtitles, captions, descriptions, chapters, etc. It is optional.
+
+The label attribute specifies a label to be displayed in the user interface.
+
+<track srclang="en">
+  <source src="subtitle.vtt">
+</track>
+--------------
+<meta> tag
+The <meta> tag is used to specify metadata about the document.
+
+The meta tag is used to specify metadata at the document level.
+
+The name attribute specifies the name of the metadata and the content attribute specifies the content of the metadata.
+
+It is used to specify the document author, title, description, keywords, etc.
+
+It is used in the <head> section of the document.
+
+<meta charset="UTF-8">
+<meta name="author" content="PearlSys">
+<meta name="description" content="Software Training and Development">
+<meta name="keywords" content="Computer Course,Software Training Course in Trichy,Java DOTNET in Trichy,Placement Training in Trichy">
+<meta name="copyright" content="Copyright © 2024 PearlSys">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="1 days">
+<meta name="rating" content="general">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+-----------
+
+<div> tag
+The <div> tag is used to create a division or a section in an HTML document.
+
+It is used to group HTML elements for styling purposes. Unless it is styled using CSS, it will not be displayed nor will have any effect on the layout of the document.
+
+It can be used to create a header, footer, sidebar, etc.
+
+<div class="img-card">
+  <img src="cat.jpg">
+  <p>little cat</p>
+</div>
+
+------------
+
+<span> tag
+The <span> tag is used to create a span or an inline section in a paragraph.
+
+It is used to group a series of words or other inline elements to be styled separately.
+
+Difference between <span> and <div> is that <span> is inline while <div> is block.
+
+<p>The most important languages to learn for web development are <span class="highlight">HTML</span>, <span class="highlight">CSS</span>, and <span class="highlight">JavaScript</span>.</p>
+
+-----------
+
+<header> tag
+The <header> tag is used to create a header for a document or section.
+
+The header section contains a little introduction, logo, navigation, search, etc.
+
+It is usually placed at the top of the document.
+
+<header>
+  <h1>My Website</h1>
+  <p>Welcome to my website</p>
+</header>
+
+------
+<main> tag
+The <main> tag is used to create the main content area of a web page.
+
+The main content area contains the bulk of the content.
+
+It is usually placed in the middle of the document.
+
+<main>
+  <p>This is the main content area</p>
+</main>
+--------
+<footer> tag
+The <footer> tag is used to create a footer of a web page.
+
+The footer section contains copyright, contact information, etc.
+
+It is usually placed at the bottom of the document.
+
+Example
+<footer>
+  <p>Copyright © 2021</p>
+</footer>
+----------
+<article> tag
+The <article> tag in HTML is used to create a self-contained, stand-alone piece of content that can be used to add additional information to a document or site.
+
+The article tag is used to group a set of related elements. All the global attributes are supported by the article tag.
+
+<article>
+  <h1>Article Heading</h1>
+  <p>This is the article content</p>
+</article>
+----------
+<section> tag
+The <section> tag in HTML is used to create a section in a document or site. It is used to group a set of related elements.
+
+In general, a section will always contain a heading and a paragraph.
+
+<section>
+  <h1>Section Heading</h1>
+  <p>This is the section content</p>
+</section>
+
+------
+<details> tag
+The <details> tag in HTML is used to create a summary element for a details element.
+
+It creates a toggle button that can be used to open and close the details element.
+
+<summary> tag
+The <summary> tag in HTML is used to create a summary element for a details element.
+
+It creates a summary element for a details element.
+
+<details>
+  <summary>This is the summary</summary>
+  <p>This is the details content</p>
+</details>
+
+URL for html tags with output
+
+http://www.csun.edu/science/help/help_docs/html_tags.html
+
+
+
+
+
+
+
+
+
