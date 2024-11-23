@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Upload</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="Form.css">
+</head>
+<body>
+  <div class="main">
+    <img class="logo" src="/Images/cognizant logo.png" alt="">
+    <div class="div1">
+      <p><span class="shirley">Shirley, you are signed in. </span><span class="account1">My Account Options</span> <span class="account2">Sign Out</span></p>
+    </div>
+
+    <div class="div2">
+      <a href="https://careers.cognizant.com/global-en/jobs/">
+      <button class="button-1">
+        Job Search
+      </button>
+      </a>
+
+      <a href="https://cognizant.taleo.net/careersection/lateral/mysubmissions.ftl?lang=en">
+      <button class="button-2">
+        My Jobpage
+      </button>
+      </a>
+    </div>
+
+    <div class="div3">
+      <p><span class="shirley">Applying for:</span>
+         <span class="job-title">Process Executive - Voice (Job Number: 00061543271)</span></p>
+    </div>
+
+    <section class="submit-resume" id="res">
+      <nav class="main-nav">
+        <a href="#s1">
+          <button class="nav1">Resume <br> Upload</button>
+        </a>
+        <a href="#s2"><button class="nav2">Personal <br> Information</button>
+        </a>
+        <a href="#s3"><button class="nav3">Education <br>and <br>Experience</button>
+        </a>
+        <a href="#s4"><button class="nav4">eSignature</button>
+        </a>
+      </nav>
+    </section>
+
+    <section class="sec1" name="sec1" id="s1">
+      <p class="resume-upload">Resume Upload</p>
+      <p class="required"><span class="r1">It is required that you upload a resume. </span> The system will automatically extract the relevant information included in the resume and prefill out part of your online submission.You can review the extracted information and make any appropriate changes in the following steps. 
+        <br><span style="line-height: 40px;">Action Required:You must upload a resume for your submission to be complete.</span></p>
+
+        <form>
+          <label>
+            <span class="opt1"><input type="radio" name="option" value="option1"><span class="star">* </span>I want to upload a resume.(Mandatory)</span> 
+          </label><br>
+          <label style="margin-top: 30px;">
+            <span class="opt2"><input type="radio" name="option" value="option2"><span class="star"></span>I do not want to upload a resume</span>
+          </label>
+        </form>
+        <p class="select">Select the resume file to upload</p>
+
+        <form class="file">
+          <label for="file-upload" class="file-upload-label"></label>
+          <input type="file" id="file-upload" class="file-upload-input" />
+        </form>
+        <p class="note">Note: Once the process is completed, please verify the fields containing values automatically extracted from the resume. You may have to manually correct or fill out some of them.</p>
+    </section>
+
+    <section id="redirect1">
+      <nav class="side-nav">
+        <a href="#s2">
+        <button class="redirect1">Save and Continue</button>
+      </a>
+    </nav>
+    </section>
+
+    <section id="s2" class="sec2">
+      <p class="personal-title">Personal Information</p>
+      <p class="instruction">Please enter all relevant personal information in the fields below.</p>
+      <table>
+        <tr>
+          <td style="display: flex;">
+            <div class="table-div1">
+              <label for="" class="row1"><span style="color: red;">* </span>First Name</label>
+              <input type="text" class="row2-1">
+            </div>
+            <div class="table-div2">
+              <label for="" class="row1"><span style="color: red;">* </span>Middle Name</label>
+              <input type="text" class="row2-2">
+            </div>
+            <div class="table-div3">
+              <label for="" class="row1"><span style="color: red;">* </span>Last Name</label>
+              <input type="text" class="row2-3">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="display: flex;">
+            <div class="table-div4">
+              <label for="" class="row1"><span style="color: red;">* </span>Street Address (line 1)</label><br>
+              <input type="text" class="row3-1">
+            </div>
+            <div class="table-div5">
+              <label for="" class="row1" style="margin-left: 80px;">Address (line 2)</label><br>
+              <input type="text" class="row3-2">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="display: flex;">
+            <div class="table-div6">
+              <label for="" class="row1"><span style="color: red;">* </span>City</label><br>
+              <input type="text" class="row4-1">
+            </div>
+            <div class="table-div7">
+              <label for="" class="row1" style="margin-left: 70px;"><span style="color: red;">* </span>Zip/Postal Code</label><br>
+              <input type="text" class="row4-2">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="display: flex;">
+            <div class="table-div8">
+              <label for="" class="row1"><span style="color: red;">* </span>Email Address</label>
+              <input type="email" class="row2-1">
+            </div>
+            <div class="table-div9">
+              <label for="" class="row1"><span style="color: red;">* </span>Primary Skills</label>
+              <input type="text" class="row2-2">
+            </div>
+            <div class="table-div10">
+              <label for="" class="row1"><span style="color: red;">* </span>Secondary Skills</label>
+              <input type="text" class="row2-3">
+              <div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="table-div11">
+            <label for="" class="row1"><span style="color: red;">* </span>Place of Residence</label>
+            <div class="div11-1">
+              <label for="" class="row1">Country</label><br>
+              <select id="country" name="country" class="country1">
+                <option value="" selected disabled>Select a country</option>
+        <option value="af">Afghanistan</option>
+        <option value="al">Albania</option>
+        <option value="dz">Algeria</option>
+        <option value="ad">Andorra</option>
+        <option value="ao">Angola</option>
+        <option value="ag">Antigua and Barbuda</option>
+        <option value="ar">Argentina</option>
+        <option value="am">Armenia</option>
+        <option value="au">Australia</option>
+        <option value="at">Austria</option>
+        <option value="az">Azerbaijan</option>
+        <option value="bs">Bahamas</option>
+        <option value="bh">Bahrain</option>
+        <option value="bd">Bangladesh</option>
+        <option value="bb">Barbados</option>
+        <option value="by">Belarus</option>
+        <option value="be">Belgium</option>
+        <option value="bz">Belize</option>
+        <option value="bj">Benin</option>
+        <option value="bt">Bhutan</option>
+        <option value="bo">Bolivia</option>
+        <option value="ba">Bosnia and Herzegovina</option>
+        <option value="bw">Botswana</option>
+        <option value="br">Brazil</option>
+        <option value="bn">Brunei</option>
+        <option value="bg">Bulgaria</option>
+        <option value="bf">Burkina Faso</option>
+        <option value="bi">Burundi</option>
+        <option value="cv">Cabo Verde</option>
+        <option value="kh">Cambodia</option>
+        <option value="cm">Cameroon</option>
+        <option value="ca">Canada</option>
+        <option value="cf">Central African Republic</option>
+        <option value="td">Chad</option>
+        <option value="cl">Chile</option>
+        <option value="cn">China</option>
+        <option value="co">Colombia</option>
+        <option value="km">Comoros</option>
+        <option value="cg">Congo (Congo-Brazzaville)</option>
+        <option value="cd">Congo (Congo-Kinshasa)</option>
+        <option value="cr">Costa Rica</option>
+        <option value="hr">Croatia</option>
+        <option value="cu">Cuba</option>
+        <option value="cy">Cyprus</option>
+        <option value="cz">Czech Republic</option>
+        <option value="dk">Denmark</option>
+        <option value="dj">Djibouti</option>
+        <option value="dm">Dominica</option>
+        <option value="do">Dominican Republic</option>
+        <option value="ec">Ecuador</option>
+        <option value="eg">Egypt</option>
+        <option value="sv">El Salvador</option>
+        <option value="gq">Equatorial Guinea</option>
+        <option value="er">Eritrea</option>
+        <option value="ee">Estonia</option>
+        <option value="es">Eswatini</option>
+        <option value="et">Ethiopia</option>
+        <option value="fj">Fiji</option>
+        <option value="fi">Finland</option>
+        <option value="fr">France</option>
+        <option value="ga">Gabon</option>
+        <option value="gm">Gambia</option>
+        <option value="ge">Georgia</option>
+        <option value="de">Germany</option>
+        <option value="gh">Ghana</option>
+        <option value="gr">Greece</option>
+        <option value="gd">Grenada</option>
+        <option value="gu">Guatemala</option>
+        <option value="gn">Guinea</option>
+        <option value="gw">Guinea-Bissau</option>
+        <option value="gy">Guyana</option>
+        <option value="ht">Haiti</option>
+        <option value="hn">Honduras</option>
+        <option value="hu">Hungary</option>
+        <option value="is">Iceland</option>
+        <option value="in">India</option>
+        <option value="id">Indonesia</option>
+        <option value="ir">Iran</option>
+        <option value="iq">Iraq</option>
+        <option value="ie">Ireland</option>
+        <option value="il">Israel</option>
+        <option value="it">Italy</option>
+        <option value="jm">Jamaica</option>
+        <option value="jp">Japan</option>
+        <option value="jo">Jordan</option>
+        <option value="kz">Kazakhstan</option>
+        <option value="ke">Kenya</option>
+        <option value="kir">Kiribati</option>
+        <option value="kp">North Korea</option>
+        <option value="kr">South Korea</option>
+        <option value="kw">Kuwait</option>
+        <option value="kg">Kyrgyzstan</option>
+        <option value="la">Laos</option>
+        <option value="lv">Latvia</option>
+        <option value="lb">Lebanon</option>
+        <option value="ls">Lesotho</option>
+        <option value="lr">Liberia</option>
+        <option value="ly">Libya</option>
+        <option value="li">Liechtenstein</option>
+        <option value="lt">Lithuania</option>
+        <option value="lu">Luxembourg</option>
+        <option value="mk">North Macedonia</option>
+        <option value="mg">Madagascar</option>
+        <option value="mw">Malawi</option>
+        <option value="my">Malaysia</option>
+        <option value="mv">Maldives</option>
+        <option value="ml">Mali</option>
+        <option value="mt">Malta</option>
+        <option value="mh">Marshall Islands</option>
+        <option value="mq">Martinique</option>
+        <option value="mr">Mauritania</option>
+        <option value="mu">Mauritius</option>
+        <option value="yt">Mayotte</option>
+        <option value="mx">Mexico</option>
+        <option value="fm">Micronesia</option>
+        <option value="md">Moldova</option>
+        <option value="mc">Monaco</option>
+        <option value="mn">Mongolia</option>
+        <option value="me">Montenegro</option>
+        <option value="ms">Montserrat</option>
+        <option value="ma">Morocco</option>
+        <option value="mz">Mozambique</option>
+        <option value="mm">Myanmar</option>
+        <option value="na">Namibia</option>
+        <option value="np">Nepal</option>
+        <option value="nl">Netherlands</option>
+        <option value="nc">New Caledonia</option>
+        <option value="nz">New Zealand</option>
+        <option value="ni">Nicaragua</option>
+        <option value="ne">Niger</option>
+        <option value="ng">Nigeria</option>
+        <option value="nu">Niue</option>
+        <option value="nf">Norfolk Island</option>
+        <option value="kp">North Korea</option>
+        <option value="mp">Northern Mariana Islands</option>
+        <option value="no">Norway</option>
+        <option value="om">Oman</option>
+        <option value="pk">Pakistan</option>
+        <option value="pw">Palau</option>
+        <option value="pa">Panama</option>
+        <option value="pg">Papua New Guinea</option>
+        <option value="py">Paraguay</option>
+        <option value="pe">Peru</option>
+        <option value="ph">Philippines</option>
+        <option value="pl">Poland</option>
+        <option value="pt">Portugal</option>
+        <option value="pr">Puerto Rico</option>
+        <option value="qa">Qatar</option>
+        <option value="ro">Romania</option>
+        <option value="ru">Russia</option>
+        <option value="rw">Rwanda</option>
+        <option value="re">Réunion</option>
+        <option value="sa">Saudi Arabia</option>
+        <option value="sb">Solomon Islands</option>
+        <option value="sc">Seychelles</option>
+        <option value="sd">Sudan</option>
+        <option value="ss">South Sudan</option>
+        <option value="se">Sweden</option>
+        <option value="ch">Switzerland</option>
+        <option value="sy">Syria</option>
+        <option value="tw">Taiwan</option>
+        <option value="tj">Tajikistan</option>
+        <option value="tz">Tanzania</option>
+        <option value="th">Thailand</option>
+        <option value="tl">Timor-Leste</option>
+        <option value="tg">Togo</option>
+        <option value="tk">Tokelau</option>
+        <option value="to">Tonga</option>
+        <option value="tt">Trinidad and Tobago</option>
+        <option value="tn">Tunisia</option>
+        <option value="tr">Turkey</option>
+        <option value="tm">Turkmenistan</option>
+        <option value="tc">Turks and Caicos Islands</option>
+        <option value="tv">Tuvalu</option>
+        <option value="ug">Uganda</option>
+        <option value="ua">Ukraine</option>
+        <option value="ae">United Arab Emirates</option>
+        <option value="gb">United Kingdom</option>
+        <option value="us">United States</option>
+        <option value="uy">Uruguay</option>
+        <option value="uz">Uzbekistan</option>
+        <option value="vu">Vanuatu</option>
+        <option value="ve">Venezuela</option>
+        <option value="vn">Vietnam</option>
+        <option value="vg">British Virgin Islands</option>
+        <option value="vi">U.S. Virgin Islands</option>
+        <option value="wf">Wallis and Futuna</option>
+        <option value="eh">Western Sahara</option>
+        <option value="ye">Yemen</option>
+        <option value="zm">Zambia</option>
+        <option value="zw">Zimbabwe</option>
+        </select> 
+        </div>
+        <div class="div11-2">
+          <label for="" class="row1">State/Province/Country</label>
+          <select name="state" id="state" class="country1">
+        <option value="" selected disabled>Select a state</option>
+        <option value="ap">Andhra Pradesh</option>
+        <option value="ar">Arunachal Pradesh</option>
+        <option value="as">Assam</option>
+        <option value="br">Bihar</option>
+        <option value="ch">Chhattisgarh</option>
+        <option value="dh">Dadra and Nagar Haveli</option>
+        <option value="dd">Daman and Diu</option>
+        <option value="dl">Delhi</option>
+        <option value="ga">Goa</option>
+        <option value="gu">Gujarat</option>
+        <option value="hr">Haryana</option>
+        <option value="hp">Himachal Pradesh</option>
+        <option value="jk">Jammu and Kashmir</option>
+        <option value="jh">Jharkhand</option>
+        <option value="ka">Karnataka</option>
+        <option value="kl">Kerala</option>
+        <option value="mp">Madhya Pradesh</option>
+        <option value="mh">Maharashtra</option>
+        <option value="mn">Manipur</option>
+        <option value="me">Meghalaya</option>
+        <option value="mz">Mizoram</option>
+        <option value="nl">Nagaland</option>
+        <option value="or">Odisha</option>
+        <option value="pb">Punjab</option>
+        <option value="rj">Rajasthan</option>
+        <option value="sk">Sikkim</option>
+        <option value="tn">Tamil Nadu</option>
+        <option value="tg">Telangana</option>
+        <option value="up">Uttar Pradesh</option>
+        <option value="ut">Uttarakhand</option>
+        <option value="wb">West Bengal</option>
+          </select>
+        </div>
+          </div>
+        </td>
+        </tr>
+        <tr>
+          <td style="display: flex;">
+            <div class="table-div12">
+              <label for="" class="row1"><span style="color: red;">* </span>Primary Contact Number</label><br>
+              <input type="text" class="row2-1">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="display: flex;">
+            <div class="table-div13">
+              <label for="" class="row1"><span style="color: red;">* </span>PAN Number</label><br>
+              <input type="text" class="row2-1">
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="table-div14">
+              <label for="" class="row1"><span style="color: red;">* </span>Total Experience</label><br>
+              <select name="experience" id="experience" class="experience1">
+                <option value="" selected disabled>Select experience</option>
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+        <option value="13">13</option>
+        <option value="14">14</option>
+        <option value="15">15</option>
+        <option value="16">16</option>
+        <option value="17">17</option>
+        <option value="18">18</option>
+        <option value="19">19</option>
+        <option value="20">20</option>
+        <option value="20+">20+</option>
+              </select>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="display: flex;">
+            <div class="table-div15">
+              <label for="" class="row1"><span style="color: red;">* </span>Previously employed by Cognizant?</label><br>
+              <select name="employed" id="employed" class="experience1">
+                <option value="not">Not Specified</option>
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+              </select>
+            </div>
+            <div class="table-div16">
+              <label for="" class="row1" style="margin-left: 70px;"><span style="color: red;">* </span>If yes, Employee ID</label><br>
+              <input type="text" class="row4-2">
+            </div>
+            </td>
+        </tr>
+        <tr class="table-div16">
+          <td class="end"><span style="color: red;">* </span>I provide my consent to receiving information about future job opportunities, recruitment activities, business developments and events from Cognizant via email and SMS, from which I can unsubscribe at any time</td>
+        </tr>
+        <tr>
+          <td>
+            <div class="table-div17">
+              <select name="employed" id="employed" class="experience1">
+                <option value="not">Not Specified</option>
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+              </select>
+            </div>
+          </td>
+        </tr>
+    </table>  
+    </section>
+
+    <section id="redirect2">
+    <nav class="side-nav">
+      <a href="#s3">
+      <button class="redirect1">Save and Continue</button>
+    </a>
+    </nav>
+   </section>
+
+   <section id="s3">
+    <p class="personal-title">Education and Experience</p>
+    <p class="edu1">List the educational experiences below, starting with the most relevant education. You must specify 1 education entry.</p>
+
+    <div>
+      <p class="personal-title-1">Education 1</p>
+      <table class="table-div18">
+        <tr>
+          <td style="display: flex;">
+            <div class="table-div1">
+              <label for="" class="row1"><span style="color: red;">* </span>Institution</label>
+              <input type="text" class="row2-1">
+            </div>
+            <div class="table-div2">
+              <label for="" class="row1"><span style="color: red;">* </span>Program</label>
+              <input type="text" class="row2-2">
+            </div>
+            <div class="table-div3">
+              <label for="" class="row1"><span style="color: red;">* </span>Education level</label>
+              <select class="experience1">
+                <option value="">Not Specified</option>
+                <option value="">Not Indicated</option>
+                <option value="">Less Than HS Graduate</option>
+                <option value="">HS Graduate or Equivalent</option>
+                <option value="">Some College</option>
+                <option value="">Technical School</option>
+                <option value="">2-Year College Degree</option>
+                <option value="">Bachelor Level Degree</option>
+                <option value="">Some Graduate School</option>
+                <option value="">Master's Level Degree</option>
+                <option value="">Doctrate (Academic)</option>
+                <option value="">Doctrate (Professional)</option>
+                <option value="">Post-Doctrate</option>
+              </select>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="display: flex;">
+            <div class="table-div6">
+              <label for="" class="row1"><span style="color: red;">* </span>Start Date</label><br>
+              <input type="month" class="month">
+            </div>
+            <div class="table-div7">
+              <label for="" class="row1" style="margin-left: 70px;"><span style="color: red;">* </span>Graduation Date</label><br>
+              <input type="month" class="month" style="margin-left: 85px;">
+            </div>
+          </td>
+        </tr>
+        </table>
+        <hr style="border: 1.5px solid gray; margin-top: 20px;">
+    </div>
+    <div>
+    <p class="personal-title-2">Education 2</p>
+      <table class="table-div18">
+        <tr>
+          <td style="display: flex;">
+            <div class="table-div1">
+              <label for="" class="row1"><span style="color: red;">* </span>Institution</label>
+              <input type="text" class="row2-1">
+            </div>
+            <div class="table-div2">
+              <label for="" class="row1"><span style="color: red;">* </span>Program</label>
+              <input type="text" class="row2-2">
+            </div>
+            <div class="table-div3">
+              <label for="" class="row1"><span style="color: red;">* </span>Education level</label>
+              <select class="experience1">
+                <option value="">Not Specified</option>
+                <option value="">Not Indicated</option>
+                <option value="">Less Than HS Graduate</option>
+                <option value="">HS Graduate or Equivalent</option>
+                <option value="">Some College</option>
+                <option value="">Technical School</option>
+                <option value="">2-Year College Degree</option>
+                <option value="">Bachelor Level Degree</option>
+                <option value="">Some Graduate School</option>
+                <option value="">Master's Level Degree</option>
+                <option value="">Doctrate (Academic)</option>
+                <option value="">Doctrate (Professional)</option>
+                <option value="">Post-Doctrate</option>
+              </select>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="display: flex;">
+            <div class="table-div6">
+              <label for="" class="row1"><span style="color: red;">* </span>Start Date</label><br>
+              <input type="month" class="month">
+            </div>
+            <div class="table-div7">
+              <label for="" class="row1" style="margin-left: 70px;"><span style="color: red;">* </span>Graduation Date</label><br>
+              <input type="month" class="month" style="margin-left: 85px;">
+            </div>
+          </td>
+        </tr>
+        </table>
+        <hr style="border: 1.5px solid gray; margin-top: 20px;">
+        <p class="edu2">List the work experiences below, starting with the most relevant one. You must specify 1 work experience entry.</p>
+        </div>
+
+    <div>
+      <p class="work-experience">Work Experience</p>
+      <table class="table-div18">
+        <tr>
+          <td style="display: flex;">
+            <div class="table-div6">
+              <label for="" class="row1"><span style="color: red;">* </span>Employer</label><br>
+              <input type="text" class="month">
+            </div>
+            <div class="table-div7">
+              <label for="" class="row1" style="margin-left: 70px;"><span style="color: red;">* </span>Job Title</label><br>
+              <input type="text" class="month" style="margin-left: 85px;">
+            </div>
+            </td>
+            </tr>
+            <tr>
+              <td style="display: flex;">
+                <div class="table-div6">
+                  <label for="" class="row1"><span style="color: red;">* </span>Start Date</label><br>
+                  <input type="month" class="month">
+                </div>
+                <div class="table-div7">
+                  <label for="" class="row1" style="margin-left: 70px;"><span style="color: red;">* </span>End Date</label><br>
+                  <input type="month" class="month" style="margin-left: 85px;">
+                </div>
+              </td>
+            </tr>
+            </table>
+            <hr style="border: 1.5px solid gray; margin-top: 20px;">
+            </div>
+          </section>
+
+          <section id="redirect3">
+            <nav class="side-nav">
+              <a href="#s4">
+              <button class="redirect1">Save and Continue</button>
+            </a>
+          </nav>
+          </section>
+
+          <section id="s4">
+            <p class="personal-title">eSignature</p>
+            <p class="edu2">Please read the following statement carefully, then acknowledge that you have read and approved it by providing the information requested at the bottom of the page. Please note that an esignature is the electronic equivalent of a hand-written signature.</p>
+            <div>
+              <label for="" class="edu2">Select a Language</label><br>
+              <select class="experience1-1">
+                <option value="">Dutch</option>
+                <option value="">English</option>
+                <option value="">French</option>
+                <option value="">German</option>
+                <option value="">Japanese</option>
+                <option value="">Korean</option>
+                <option value="">Portuguese</option>
+                <option value="">Simplified Chinese</option>
+                <option value="">Spanish</option>
+                <option value="">Thai</option>
+                <option value="">Traditional Chinese</option>
+              </select>
+            </div>
+
+            <div class="scroll">
+              <div class="scroll-content">
+              <p class="edu2">I certify that the statements made in this application are valid and complete
+                 to that best of my knowledge. I understand that providing false or misleading
+                  information to <span style="font-weight: 600;">Cognizant Technology Solutions U.S. Corporation 
+                    (together with its affiliates, "Cognizant")</span> may result in the termination of employment.</p>
+              <p class="edu2">I understand that Cognizant may request a credit and/or background check from a credit reporting
+                agency or related service. I understand that I have right to make a written request within a 
+                reasonable time for the disclosure of the name and address of the credit-reporting agency so
+                 that I may obtain a complete disclosure of the nature and scope of any investigation. 
+                 I authorize Cognizant to provide my contact information to an authorized background checking 
+                 vendor in the event that clarification or further details are needed to complete the check.</p>
+              <p class="edu2">I understand that the records will be used for employment purpose only and will not be given to unauthorized persons.</p>
+              <p class="edu2">I authorize Cognizant and its agents to conduct a reference check so that hiring
+                decision may be made. In the event that Cognizant is unable to verify any reference
+                 stated in this application, it is my responsibility to furnish the necessary documentation.
+               </p>
+              <p class="edu2">I understand that this application or subsequent employment does not create a contract of 
+                employment nor guarantee employment for any definite period of time. If hired, I understand
+                 that Cognizant is an at will employer, and my employment may be terminated at any time, 
+                 with or without notice.</p>
+              <p class="edu2">I have read, understand, and by my signature consent to these statements.</p>
+            </div>
+          </div>
+          <p class="edu2" style="font-weight:600;">Do Not E-Sign Until You Have Read The Above Statement.</p>
+          <p class="edu2">By my eSignature below, I certify that I have read, fully understand and accept all terms of the foregoing 
+          statement.   Please signify your acceptance by entering the information requested in the fields below.</p>
+
+          <table>
+            <tr>
+              <td style="display: flex;">
+                <div class="table-div4">
+                  <label for="" class="row1"><span style="color: red;">* </span>Email Address</label><br>
+                  <input type="text" class="row3-1">
+                </div>
+                <div class="table-div5">
+                  <label for="" class="row1" style="margin-left: 75px;"><span style="color: red;">* </span>Please enter your full name:</label><br>
+                  <input type="text" class="row3-2">
+                </div>
+              </td>
+            </tr>
+          </table>
+          </section>
+
+          <section>
+            <a href="Form.html">
+              <button class="redirect1">Submit</button>
+            </a>
+          </section>
+  </div>
+  <div class="final">
+    <table>
+      <tr>
+        <td>
+          <a href="https://www.linkedin.com/company/cognizant" style="cursor: pointer;"><img src="/Images/in.png" alt="" class="in"></a>
+        </td>
+        <td>
+          <a href="https://x.com/cognizant" style="cursor: pointer;"><img src="/Images/x.png" alt="" class="x"></a>
+        </td>
+        <td>
+          <a href="https://www.facebook.com/Cognizant" style="cursor: pointer;"><img src="/Images/f.png" alt="" class="f"></a>
+        </td>
+        <td>
+          <a href="https://www.cognizant.com/us/en/sitemap" style="cursor: pointer; text-decoration: none;"><p class="fi1">Sitemap</p></a>
+        </td>
+        <td>
+          <a href="https://www.cognizant.com/us/en/terms-conditions" style="cursor: pointer; text-decoration: none;"><p class="fi2">Legal</p></a>
+        </td>
+        <td>
+          <a href="https://www.cognizant.com/us/en/privacy-notice" style="cursor: pointer; text-decoration: none;"><p class="fi3">Privacy Policy</p></a>
+        </td>
+        <td>
+          <a href="https://www.cognizant.com/us/en/cookie-notice" style="cursor: pointer; text-decoration: none;"><p class="fi4">Cookie Policy</p></a>
+        </td>
+        <td>
+          <p class="fi5">@2024 Cognizant, all rights reserved</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
