@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serenity Blooms</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <!--Navigation bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Serenity Blooms</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#product">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--Main Section-->
+  <div class="bg-light text-center py-5" style="background-image:url(img/mainimage.jpg);background-size: cover;background-position: center;color: white;">
+    <div>
+      <h1 class="display-4">Welcome to Serenity Blooms</h1>
+      <p class="lead">Fresh flowers for every occasion</p>
+      <a href="#product" class="btn btn-success btn-lg">Shop Now</a>
+    </div>
+  </div>
+
+  <!--About Section-->
+  <section id="about" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">About Us</h2>
+      <p class="text-center">At Serenity Blooms, we believe in spreading joy and love through the beauty of flowers. Explore our wide range of fresh blooms and unique arrangements.</p>
+    <div class="row mt-4">
+      <div class="col-md-4 text-center">
+      <img src="img/about1.jpeg" alt="quality-flowers" class="rounded-circle mb-3">
+      <h4>High-Quality Flowers</h4>
+      <p>Only the freshest blooms, handpicked with care.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="img/about2.jpeg" alt="quality-flowers" class="rounded-circle mb-3">
+        <h4>Custom Arrangements</h4>
+        <p>Tailored floral designs for any occasion.</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="img/about3.jpeg" alt="quality-flowers" class="rounded-circle mb-3">
+          <h4>Timely Delivery</h4>
+          <p>Your flowers delivered fresh and on time.</p>
+          </div>
+    </div>
+  </div>
+  </section>
+
+  <!--Product Section-->
+  <section class=" bg-light" id="product">
+    <div class="container">
+    <h2 class="text-center">Our Products</h2>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/product1.jpeg" alt="product1" class="card-img-top">
+          <div class="card-body">
+            <h5>Romantic Bouquet</h5>
+            <p>A stunning arrangement of roses, perfect for special moments.</p>
+            <a href="#" class="btn btn-success btn-sm">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/product2.jpeg" alt="product1" class="card-img-top">
+          <div class="card-body">
+            <h5>Wedding Arrangement</h5>
+            <p>Beautiful floral designs to make your big day extra special.</p>
+            <a href="#" class="btn btn-success btn-sm">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="img/product3.jpeg" alt="product1" class="card-img-top">
+          <div class="card-body">
+            <h5>Indoor Plants</h5>
+            <p>Bring greenery to your home with our indoor plants</p>
+            <a href="#" class="btn btn-success btn-sm">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  </section>
+
+  <!--Contact Section-->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Contact Us</h2>
+      <p class="text-center">Have questions? We're here to help! Drop us a message below.</p>
+       <form action="" class="mt-4">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" placeholder="Your Name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" placeholder="Your Email">
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea name="message" class="form-control" placeholder="Your Message"></textarea>         
+        </div>
+        <button class="btn btn-success">Submit</button>
+       </form>
+    </div>
+  </section>
+
+  <!--Footer Section-->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Flower haven. All Rights Reserved.</p>
+  </footer>
+  <!--Bootstrap Javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
